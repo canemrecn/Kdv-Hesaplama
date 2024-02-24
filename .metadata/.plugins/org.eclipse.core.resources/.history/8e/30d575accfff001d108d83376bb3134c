@@ -1,0 +1,13 @@
+package kh;
+import java.util.Scanner;
+public class kth {
+	public static void main(String[] args) {
+		Scanner scan= new Scanner(System.in);
+		double price = 0.0;
+		double rate = 18;
+		System.out.print("Tutar Giriniz: ");
+		price = scan.nextDouble();
+		double kdvPrice = price * (rate / 100);
+		System.out.println(kdvPrice);
+	}
+}
